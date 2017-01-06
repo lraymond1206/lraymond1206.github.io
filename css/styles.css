@@ -103,7 +103,7 @@ hr {
     }
 }
 
-nav a, button, .btn {
+a, button, .btn {
     min-width: 48px;
     min-height: 48px;
 }
