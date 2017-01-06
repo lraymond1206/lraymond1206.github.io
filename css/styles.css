@@ -58,21 +58,21 @@ hr {
 }
 
 .link-style {
-	font-size: 13px;
-	color: #2d3c49;
-	letter-spacing: 1px;
+    font-size: 13px;
+    color: #2d3c49;
+    letter-spacing: 1px;
 }
 
 .col-md-4 {
-	float: center;
+    float: center;
 }
 .img-proj {
-	height: 200px;
-	display: inline;
-	margin: auto;
+    height: 200px;
+    display: inline;
+    margin: auto;
 }
 
 .img-modal {
-	max-width: 300px;
-	margin: auto;
+    max-width: 300px;
+    margin: auto;
 }
