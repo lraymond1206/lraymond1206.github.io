@@ -62,7 +62,7 @@ hr {
     letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 1600px) { 
+@media only screen and (min-width: 1440px) { 
     .proj-style {
         font-size: 38px; 
     } 
