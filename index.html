@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="uft-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:200,300,350,400" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+		<link rel="stylesheet" href="./css/styles.css" type="text/css">
+		<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row headline">
+				<div class="col-md-6">
+					<img class="title-logo img-responsive" src="./img/logo.png" alt="Udacity Logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super">Rui Li</h1>
+					<h4 class="ninja-style">Front-end Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="./img/center.png" alt="Center img" data-toggle="modal" data-target="#modal1">
+				</div>
+			</div>		
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted feat-style">Featured Work</h2>
+				</div>
+			</div>	
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img class="img-responsive" src="./img/appify.png" alt="Appify">
+					<h3 class="text-uppercase proj-style">appify</h3>
+					<a href="https://github.com/udacity/Appify/" class="link-style">https://github.com/udacity/Appify/</a>	
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="./img/sunflower.png" alt="Sunflower" data-toggle="modal" data-target="#modal1">
+					<h3 class="text-uppercase proj-style">Sunflower</h3>
+					<a href="https://github.com/udacity/Sunflower/" class="link-style">https://github.com/udacity/Sunflower/</a>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive" src="./img/bokeh.png" alt="Bokenh" data-toggle="modal" data-target="#modal1">
+					<h3 class="text-uppercase proj-style">Bokeh</h3>
+					<a href="https://github.com/udacity/Bokeh/" class="link-style">https://github.com/udacity/Bokeh/</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Modal -->
+		<div class="modal fade text-center" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="./img/center.png" alt="Modal">
+						<p class="text-center">This was my first portfolio in this class. I learned a lot about HTML and CSS.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
