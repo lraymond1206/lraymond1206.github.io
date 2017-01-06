@@ -1,12 +1,12 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #2d3c49;
     font-weight: 400;
     overflow: auto;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1200px;
 }
 
 .text-muted {
@@ -14,16 +14,15 @@ body {
 }
 
 .headline {
-    margin-top: 30px;
+    margin: 30px 0px 20px;
     font-weight: 300;
-    margin-bottom: 20px;
     display: flex;
 }
 
 .title-logo {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 0px;
     width: 100px;
+    height: auto;
 }
 
 .title-super {
@@ -32,89 +31,18 @@ body {
 }
 
 hr {
-    border:solid 2px #7d97ad;
-    margin-bottom: 35px;
-    margin-top: 10px;
+    border: solid 2px #7d97ad;
+    margin: 10px 0px 35px;
 }
 
 .ninja-style {
     font-size: 26px;
-    margin-top: 0px;
     letter-spacing: 1px;
 }
 
 .feat-style {
-    margin-left: 10px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin: 50px 10px 10px;
     letter-spacing: 3px;
     word-spacing: 3px;
     font-size: 40px;
-}
-
-.proj-style {
-    letter-spacing: 3px;
-    margin-top: 13px;
-}
-
-.link-style {
-    color: #2d3c49;  
-    letter-spacing: 1px;
-}
-
-@media only screen and (min-width: 1440px) { 
-    .proj-style {
-        font-size: 38px; 
-    } 
-    .link-style { 
-        font-size: 14px;
-    }
-}
-@media only screen and (max-width: 1440px) { 
-    .proj-style {
-        font-size: 36px; 
-    } 
-    .link-style { 
-        font-size: 13px;
-    }
-}    
-@media only screen and (max-width: 1350px) { 
-    .proj-style {
-        font-size: 34px; 
-    } 
-    .link-style { 
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 1200px) { 
-    .proj-style {
-        font-size: 32px; 
-    } 
-    .link-style { 
-        font-size: 11px;
-    }
-}
-@media only screen and (max-width: 992px)  { 
-    .proj-style {
-        font-size: 45px; 
-    } 
-    .link-style { 
-        font-size: 20px;
-    }
-}
-
-a, button, .btn {
-    min-width: 48px;
-    min-height: 48px;
-}
-
-.img-proj {
-    height: 200px;
-    display: inline;
-    margin: auto;
-}
-
-.img-modal {
-    max-width: 300px;
-    margin: auto;
 }
