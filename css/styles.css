@@ -2,10 +2,11 @@ body {
     font-family: 'Lato', sans-serif;
     color: #2d3c49;
     font-weight: 400;
+	overflow: auto;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
 }
 
 .text-muted {
@@ -52,20 +53,16 @@ hr {
 }
 
 .proj-style {
-    font-size: 38px;
+    
     letter-spacing: 3px;
     margin-top: 13px;
 }
 
 .link-style {
-    font-size: 14px;
-    color: #2d3c49;
+    color: #2d3c49;  
     letter-spacing: 1px;
 }
 
-.col-md-4 {
-    float: center;
-}
 .img-proj {
     height: 200px;
     display: inline;
@@ -75,4 +72,44 @@ hr {
 .img-modal {
     max-width: 300px;
     margin: auto;
+}
+@media only screen and (max-width: 1600px) { 
+    .proj-style {
+        font-size: 38px; 
+    } 
+    .link-style { 
+	    font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1440px) { 
+    .proj-style {
+        font-size: 36px; 
+    } 
+    .link-style { 
+	    font-size: 13px;
+    }
+}    
+@media only screen and (max-width: 1350px) { 
+    .proj-style {
+        font-size: 34px; 
+    } 
+    .link-style { 
+	    font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1200px) { 
+    .proj-style {
+        font-size: 32px; 
+    } 
+    .link-style { 
+	    font-size: 11px;
+    }
+}
+@media only screen and (max-width: 992px)  { 
+    .proj-style {
+        font-size: 45px; 
+    } 
+    .link-style { 
+	    font-size: 20px;
+    }
 }
