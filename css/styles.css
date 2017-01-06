@@ -16,6 +16,7 @@ body {
     margin-top: 30px;
     font-weight: 350;
     margin-bottom: 20px;
+	display: flex;
 }
 
 .title-logo {
@@ -62,3 +63,16 @@ hr {
 	letter-spacing: 1px;
 }
 
+.col-md-4 {
+	float: center;
+}
+.img-proj {
+	height: 200px;
+	display: inline;
+	margin: auto;
+}
+
+.img-modal {
+	max-width: 300px;
+	margin: auto;
+}
