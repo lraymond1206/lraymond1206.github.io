@@ -62,16 +62,6 @@ hr {
     letter-spacing: 1px;
 }
 
-.img-proj {
-    height: 200px;
-    display: inline;
-    margin: auto;
-}
-
-.img-modal {
-    max-width: 300px;
-    margin: auto;
-}
 @media only screen and (max-width: 1600px) { 
     .proj-style {
         font-size: 38px; 
@@ -111,4 +101,20 @@ hr {
     .link-style { 
         font-size: 20px;
     }
+}
+
+nav a, button, .btn {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.img-proj {
+    height: 200px;
+    display: inline;
+    margin: auto;
+}
+
+.img-modal {
+    max-width: 300px;
+    margin: auto;
 }
