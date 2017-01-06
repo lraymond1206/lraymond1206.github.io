@@ -13,20 +13,20 @@ body {
 }
 
 .headline {
-	margin-top: 30px;
-	font-weight: 350;
-	margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 350;
+    margin-bottom: 20px;
 }
 
 .title-logo {
     margin-top: 25px;
-	margin-bottom: 25px;
-	width: 100px;
+    margin-bottom: 25px;
+    width: 100px;
 }
 
 .title-super {
     font-size: 72px;
-	font-weight: 200;
+    font-weight: 200;
 }
 
 hr {
@@ -47,17 +47,17 @@ hr {
     margin-bottom: 10px;
     letter-spacing: 3px;
     word-spacing: 3px;
-	font-size: 40px;
+    font-size: 40px;
 }
 
 .proj-style {
-    font-size: 42px;
+    font-size: 38px;
     letter-spacing: 3px;
     margin-top: 13px;
 }
 
 .link-style {
-	font-size: 12px;
-	color: #2d3c49;
-	letter-spacing: 1px;
+    font-size: 12px;
+    color: #2d3c49;
+    letter-spacing: 1px;
 }
